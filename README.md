@@ -1,6 +1,6 @@
 #I'm leeeaaarrrrnnning!!!!
 
-check out the site at [seasons](http://seasons/0xWildhare.com)
+check out the site at [seasons](http://seasons.0xWildhare.com)
 
 
 # Getting Started with Create React App
