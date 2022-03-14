@@ -1,3 +1,6 @@
+#pic search app from Stephen Grider's react class on udemy
+deployed at http://pics.0xwildhare.com
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
