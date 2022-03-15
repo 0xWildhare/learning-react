@@ -1,6 +1,8 @@
-#pics app from Stephen Grider Udemy react class
+# pics app from Stephen Grider Udemy react class
 
-the app can is deployed at http://pics.0xwildhare.com
+the app is deployed at http://pics.0xwildhare.com
+
+*******
 
 # Getting Started with Create React App
 
