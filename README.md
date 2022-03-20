@@ -1,3 +1,13 @@
+#Video search project from Grider Udemy React Class
+
+the working version can be found here: [http://video.0xWildhare.com](http://video.0xWildhare.com)
+
+This was really just a repeat of many of the lessons learned in the pics project. It's good to get the practice. I am definitely learning. In both this project and the previous one, I used dotenv to hide the api key, but learned today that it is visible through inspect element on the webpage so oh well. its good practice!
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
