@@ -3,6 +3,8 @@ import Accordion from './components/Accordion';
 import Search from './components/Search';
 import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
+import Route from './components/Route';
+import Header from './components/Header';
 
 const items = [
   {
@@ -34,12 +36,37 @@ const options = [
   }
 ]
 
+
+
 export default () => {
-  //const [selected,setSelected] = useState(options[0]);
+  const [selected,setSelected] = useState(options[0]);
   //const [showDropdown, setShowDropdown] = useState(true);
 
   return(
     <div>
+      <Header />
+      <Route path="/">
+        <Accordion items={items} />
+      </Route>
+      <Route path="/list">
+        <Search />
+      </Route>
+      <Route path="/dropdown">
+        <Dropdown
+          label={"Select a color"}
+          selected={selected}
+          options={options}
+          onSelectedChange={setSelected}
+        />
+        <div>
+          <h1>
+            <font color={selected.value}>{`the color is ${selected.value}`}</font>
+          </h1>
+        </div>
+      </Route>
+      <Route path="/translate">
+        <Translate />
+      </Route>
       {/*<Accordion items={items}/>*/}
       {/*<Search />*/}
       {/*<button onClick={() => setShowDropdown(!showDropdown)}>Toggle Dropdown</button>
@@ -55,7 +82,7 @@ export default () => {
           <font color={selected.value}>{`the color is ${selected.value}`}</font>
         </h1>
       </div>*/}
-      <Translate />
+      {/*<Translate />*/}
     </div>
   );
 };
